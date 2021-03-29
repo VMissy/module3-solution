@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff6ba1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9e9e9e;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(32, 6, 179);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*menu tile*/
+#menu-tile .chicken-text {
+  background: #1b95c5;
+  padding: 10px;
+}
+
+/*menu drop down list*/
+#nav-list a {
+	color: white;
+	text-align: center;
+  border: solid 1px black;
+  background-color: transparent;
+}
+
+#nav-list a:hover {
+	background-color: #0e04a1;
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px)
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) 
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+
+  /* End Header */
+
+
